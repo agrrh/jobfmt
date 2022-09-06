@@ -1,0 +1,13 @@
+---
+
+version: "3"
+
+services:
+  frontend:
+    build: ./frontend
+    depends_on:
+      - backend
+    environment:
+      APP_ENV: local
+    ports:
+      - "8080:80"
