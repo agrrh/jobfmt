@@ -5,11 +5,32 @@
 
 
 <div class="container">
-	<h1>jobs fmt</h1>
-	<hr>
+	<div class="row">
+		<div class="col s8">
+			<h1>jobs&nbsp;fmt</h1>
+		</div>
+
+		<div class="col s4">
+			<a class="waves-effect waves-light btn-large right" href="#!"><i class="material-icons left">send</i>foo</a>
+		</div>
+
+		<div class="col s12">
+			<hr>
+		</div>
+	</div>
 
 	<div class="row">
-		<div class="col s5"><Input /></div>
-		<div class="col s6 push-s1"><Render /></div>
+		<div class="col s5">
+			<Input />
+		</div>
+		<div class="col s6 push-s1">
+			<Render />
+		</div>
 	</div>
 </div>
+
+<style>
+	.btn-large {
+		margin-top: 52px;
+	}
+</style>

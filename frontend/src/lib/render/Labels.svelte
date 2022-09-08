@@ -22,10 +22,10 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 </script>
 
-<!-- Tech stack -->
+<!-- Labels -->
 <div class="row">
-  <div class="input-field col s12">
-    <span class="color-grey color-lighten-4">Технологии</span>
-    <div class="chips chips-stack" id="tech_stack"></div>
+  <div class="col s12">
+    <span class="color-red color-lighten-4">labels</span>
+    <div class="chips chips-stack" id="labels"></div>
   </div>
 </div>

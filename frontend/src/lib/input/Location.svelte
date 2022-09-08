@@ -1,4 +1,6 @@
 <script>
+import { location } from '../../../scripts/stores.js';
+
 document.addEventListener('DOMContentLoaded', function() {
 	var elems = document.querySelectorAll('.collapsible');
 	var options = {
@@ -15,5 +17,11 @@ document.addEventListener('DOMContentLoaded', function() {
   </div>
 </div>
 
+<div class="row">
+  <div class="input-field col s12">
+    <input placeholder="Кипр" id="title" type="text" class="validate">
+    <label for="title">Релокация</label>
+  </div>
+</div>
 <!-- TODO Добавить выбор, требуется ли релокация для иногородних -->
 <!-- TODO Добавить выбор, есть ли релокационный пакет -->

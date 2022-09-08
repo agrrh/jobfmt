@@ -1,9 +1,8 @@
 <script>
-import GradeAndTitle from './input/GradeAndTitle.svelte';
+import Title from './input/Title.svelte';
 import Format from './input/Format.svelte';
 import Location from './input/Location.svelte';
 import Salary from './input/Salary.svelte';
-import TechStack from './input/TechStack.svelte';
 import Description from './input/Description.svelte';
 
 document.addEventListener('DOMContentLoaded', function() {
@@ -32,14 +31,13 @@ document.addEventListener('DOMContentLoaded', function() {
 	-->
 
 	<!-- TODO Добавить название компании / КА -->
+	<!-- TODO Добавить подсказки к каждой форме -->
 
-		<GradeAndTitle />
+		<Title />
 		<Format />
 		<Salary />
 
 		<Location />
-
-		<TechStack />
 
 		<Description />
 

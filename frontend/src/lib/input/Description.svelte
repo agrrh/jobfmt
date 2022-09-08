@@ -1,3 +1,7 @@
+<script>
+import { description } from '../../../scripts/stores.js';
+</script>
+
 <!-- Description -->
 <div class="row">
   <div class="input-field col s12">

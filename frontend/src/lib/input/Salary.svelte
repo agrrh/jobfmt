@@ -1,3 +1,7 @@
+<script>
+import { salary } from '../../../scripts/stores.js';
+</script>
+
 <!-- Salary -->
 <div class="row">
   <div class="input-field col s2">
